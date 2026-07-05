@@ -1,0 +1,9 @@
+# SAL Ventures
+
+> Miami-based venture studio building for the post-execution economy and exploring what's coming next.
+
+SAL Ventures is a forward-looking venture studio based in Miami. We believe intelligence is becoming ubiquitous and that companies will be fundamentally different as a result. We build for the post-execution economy and explore what the future of work, technology, and business looks like in an AI-native world.
+
+## Pages
+
+- [Home](/): SAL Ventures vision and introduction.

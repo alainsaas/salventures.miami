@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import salLogo from "@/assets/sal-ventures-logo.png";
-// import ContactForm from "@/components/ContactForm";
+
 
 
 const Index = () => {
@@ -15,6 +15,9 @@ const Index = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-20">
+        {/* Primary heading for SEO & accessibility */}
+        <h1 className="sr-only">SAL Ventures — Building for the post-execution economy</h1>
+
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -55,13 +58,12 @@ const Index = () => {
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary animate-pulse-glow" />
           Miami
         </motion.div>
-
-        {/* Contact section — disabled for static export
-        <section id="contact" className="w-full max-w-3xl mt-32 md:mt-40">
-          <ContactForm />
-        </section>
-        */}
       </div>
+
+
+
+
+
 
 
       {/* Subtle horizon line */}
