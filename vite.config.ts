@@ -4,9 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-// Base path matches the GitHub Pages URL: https://alainsaas.github.io/salventures.miami/
+// Base path is "/" since the site is served at the apex domain salventures.miami
 export default defineConfig(({ mode }) => ({
-  base: "/salventures.miami/",
+  base: "/",
   server: {
     host: "::",
     port: 8080,
